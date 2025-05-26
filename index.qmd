@@ -1,0 +1,29 @@
+---
+format: html
+---
+
+
+# Présentation
+
+Mes cours s'adressent à des débutants sans expérience mais motivés.
+
+Contrairement à ce qu'on essaye de vous faire croire utiliser R au delà de quelques fonctions de base demande du travail surtout dans les débuts. Il faut impérativement apprendre des notions ingrates & sans intérêt immédiatement visible. Vous voilà prévenus.
+
+Ce site a plus pour but d'être mon aide mémoire que de vous apprendre à utiliser R. Il est par définition incomplet & en chantier. Je vous conseille plutôt mes vidéos : [ici](https://www.youtube.com/playlist?list=PL2b1a8d3c7f0e4f5b) et [là](https://www.youtube.com/playlist?list=PL2b1a8d3c7f0e4f5b). Je peut aussi assurer des cours en présentiel ou à distance. [N'hésitez pas à me contacter](https://philippemichel.github.io/latexr/).
+
+j'utilise au quotidien R saveur Tidyverse, c'est donc ce que j'enseigne.
+
+
+## Plan global
+
+ - Présentation de R : historique, généralités...
+ - [R et RStudio](installation.qmd) : installation, usage de RStudio.
+ - Les objets : variables simples & complexes (dataframes...)
+ - Les fonctions : comment les utiliser, comment en créer
+ - Bases de la programmation: les boucles, les conditions, le pipe
+ - Les données : comment les importer, les exporter, les manipuler
+ - Les graphiques : comment les créer, les personnaliser
+ 
+ 
+ 
+

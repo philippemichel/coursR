@@ -1,0 +1,65 @@
+title: Mon cours sur R
+subtitle : spécial débutant
+project:
+  type: website
+  output-dir: "docs"
+date: today
+lang: fr
+language:
+  title-block-author-single: "Auteur"
+author:
+  - name: "D<sup>r</sup> Philippe MICHEL"
+    orcid: "0000-0003-2392-7186"
+    email: "philippe.michel@ght-novo.fr"
+    role: "Médecin & Statisticien"
+website:
+  title: "R simple & complet"
+  search:
+    location: sidebar
+    type: textbox
+  navbar:
+    background: primary
+    search: true
+    right:
+       - icon: github
+         href: https://github.com/philippemichel
+       - icon: twitter
+         href: https://twitter.com/PhiippeMICHEL
+       - icon: mailbox
+         text: mail
+         href: mailto:philippe.michel@ght-novo.fr
+  sidebar:
+    style: "docked"
+    pinned: true
+    search: true
+    contents:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "Présentation de R"
+        href: presentation.qmd
+      - text: "Installation"
+        href: installation.qmd
+      - text: "RStudio"
+        href:  rstudio.qmd
+      - text: "Organisation du travail"
+        href: organisation.qmd
+      - text: "Les objets"
+        href: objets.qmd
+      - text: "Les fonctions"
+        href: fonctions.qmd
+
+  open-graph:
+    locale: fr_FR
+format:
+    html:
+      code-fold: true
+      page-layout: full
+      highlight-style: ayu
+      theme:
+        light:
+          - sandstone
+        dark: cyborg
+      fontsize: 1.2em
+toc: true
+warning: false
+message: false

@@ -1,0 +1,28 @@
+---
+title: "Installation"
+format: html
+---
+# Installation
+
+## R
+
+ Vous pouvez  télécharger R sur le site officiel : [CRAN](https://cran.r-project.org/). Il est disponible pour Windows, Mac et Linux. 
+ 
+ Sous Linux je vous conseille d'installer R depuis les dépôts de votre distribution. Par exemple, sous Ubuntu
+ vous pouvez utiliser la commande suivante :
+ 
+```bash
+sudo apt install r-base
+```
+
+Après l'installation, vous pouvez vérifier que R est bien installé en ouvrant un terminal et en tapant la commande suivante :
+```bash
+R --version
+```
+
+
+## RStudio
+
+ Pour écrire du code R vous pouvez passer par un terminal mais il existe des interface dédiées à la programmation  appelés IDE (Integrated Development Environment). L'IDE le plus utilisé pour R est RStudio. Il est disponible pour Windows, Mac et Linux. Vous pouvez le télécharger à l'adresse suivante : [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/).
+ 
+La version de base est gratuite et suffisante pour la plupart des utilisateurs. Il existe une version payante avec des fonctionnalités uniquement utiles en entreprise. 
