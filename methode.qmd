@@ -1,0 +1,32 @@
+---
+title: "Méthode de travail"
+---
+
+::: callout-note
+Les méthodes présentées ici ne sont pas spécifiques à RStudio. 
+
+Vous pouvez (devez) les employer avec n'importe quel éditeur.
+:::
+
+# Console & script
+
+Le premier réflexe quand on débute est de taper son code dans la onsole. 9a fonctionne parfaitement tapez `2 + 2` et appuyez sur `Entrée`. Vous obtiendrez `4`. OK, c'est bon. Mais dès que ça se complexifie on s'y perd rapidement : vous aurez des tonnes de lignes (une ligne par essai, une ligne par faute de frappe...) & impossible de retrouver la ligne utile. De plus la plupart des instructions demande plusieurs lignes (en particulier avec le Tidyverse & l'emploi du pipe) et là l'écritutre ligne par ligne devient périlleuse. 
+
+La solution est simple mais demande une petite gymnastique qui va rapidement devenir un réflexe.
+
+1.  Ouvrez un script (Fichier \> Nouveau fichier \> Script R).C'est un simple fichier texte.
+2.  Tapez votre code dans le script. Une ligne, cents lignes, peu importe.
+3.  Sélectionnez la ligne ou les lignes que vous voulez exécuter.
+4.  Appuyez sur `Ctrl + Entrée` (ou `Cmd + Entrée` sur Mac). Vous verrez le résultat dans la console. (il y a un bouton `Exécuter` en haut à droite du script qui fait la même chose mais ce raccourci clavier est **impérativement** à connaitre par cœur)
+5.  Vous pouvez aussi exécuter le script entier en appuyant sur `Ctrl + Alt + Entrée` (ou `Cmd + Option + Entrée` sur Mac).
+6.  Dans la console va s'afficher les lignes sélectionnées & le résultat.
+7.  Une erreur, une faute de frappe ? Corriger le script & retour au point **3**. Et ainsi de suite.
+8. Sauvegarder votre fichier script. Le lendemain vous aurez juste à l'ouvrir pour retrouver votre code. Vous pouvez aussi le partager avec vos collègues, le mettre dans un dépôt GitHub, etc.
+
+::: callout-note
+Dans quelques cours je vous expliquerais une méthode encore meilleure : **Quarto**. Mais pour l'instant, restons simple. 
+
+Et quand on y réfléchit bien une page Quarto n'est qu'un script amélioré. 
+:::
+
+

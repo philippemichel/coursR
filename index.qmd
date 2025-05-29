@@ -18,8 +18,8 @@ j'utilise au quotidien R saveur Tidyverse, c'est donc ce que j'enseigne.
 
  - Présentation de R : historique, généralités...
  - [R et RStudio](installation.qmd) : installation, Présentation de RStudio.
- - Les objets : variables simples & complexes (dataframes...)
- - RStudio : métode de travail.
+  - [RStudio](methode.qmd) : méthode de travail.
+ - [Les objets](objets.qmd) : variables simples & complexes (dataframes...)
  - Les fonctions : comment les utiliser, comment en créer
  - Bases de la programmation: les boucles, les conditions, le pipe
  - Les données : comment les importer, les exporter, les manipuler

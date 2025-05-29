@@ -4,7 +4,7 @@
     "href": "index.html#plan-global",
     "title": "Présentation",
     "section": "",
-    "text": "Présentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nLes objets : variables simples & complexes (dataframes…)\nRStudio : métode de travail.\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
+    "text": "Présentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nRStudio : méthode de travail.\nLes objets : variables simples & complexes (dataframes…)\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
     "crumbs": [
       "Accueil"
     ]
@@ -38,7 +38,7 @@
     "href": "index.html",
     "title": "Présentation",
     "section": "",
-    "text": "Mes cours s’adressent à des débutants sans expérience mais motivés.\nContrairement à ce qu’on essaye de vous faire croire utiliser R au delà de quelques fonctions de base demande du travail surtout dans les débuts. Il faut impérativement apprendre des notions ingrates & sans intérêt immédiatement visible. Vous voilà prévenus.\nCe site a plus pour but d’être mon aide mémoire que de vous apprendre à utiliser R. Il est par définition incomplet & en chantier. Je vous conseille plutôt mes vidéos : ici et là. Je peut aussi assurer des cours en présentiel ou à distance. N’hésitez pas à me contacter.\nj’utilise au quotidien R saveur Tidyverse, c’est donc ce que j’enseigne.\n\n\n\nPrésentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nLes objets : variables simples & complexes (dataframes…)\nRStudio : métode de travail.\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
+    "text": "Mes cours s’adressent à des débutants sans expérience mais motivés.\nContrairement à ce qu’on essaye de vous faire croire utiliser R au delà de quelques fonctions de base demande du travail surtout dans les débuts. Il faut impérativement apprendre des notions ingrates & sans intérêt immédiatement visible. Vous voilà prévenus.\nCe site a plus pour but d’être mon aide mémoire que de vous apprendre à utiliser R. Il est par définition incomplet & en chantier. Je vous conseille plutôt mes vidéos : ici et là. Je peut aussi assurer des cours en présentiel ou à distance. N’hésitez pas à me contacter.\nj’utilise au quotidien R saveur Tidyverse, c’est donc ce que j’enseigne.\n\n\n\nPrésentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nRStudio : méthode de travail.\nLes objets : variables simples & complexes (dataframes…)\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
     "crumbs": [
       "Accueil"
     ]
@@ -161,6 +161,43 @@
     "text": "Vous pouvez télécharger R sur le site officiel : CRAN. Il est disponible pour Windows, Mac et Linux.\nSous Linux je vous conseille d’installer R depuis les dépôts de votre distribution. Par exemple, sous Ubuntu vous pouvez utiliser la commande suivante :\nsudo apt install r-base\nAprès l’installation, vous pouvez vérifier que R est bien installé en ouvrant un terminal et en tapant la commande suivante :\nR --version",
     "crumbs": [
       "Installation"
+    ]
+  },
+  {
+    "objectID": "methode.html",
+    "href": "methode.html",
+    "title": "Méthode de travail",
+    "section": "",
+    "text": "Note\n\n\n\nLes méthodes présentées ici ne sont pas spécifiques à RStudio.\nVous pouvez (devez) les employer avec n’importe quel éditeur.\n\n\n\nConsole & script\nLe premier réflexe quand on débute est de taper son code dans la onsole. 9a fonctionne parfaitement tapez 2 + 2 et appuyez sur Entrée. Vous obtiendrez 4. OK, c’est bon. Mais dès que ça se complexifie on s’y perd rapidement : vous aurez des tonnes de lignes (une ligne par essai, une ligne par faute de frappe…) & impossible de retrouver la ligne utile. De plus la plupart des instructions demande plusieurs lignes (en particulier avec le Tidyverse & l’emploi du pipe) et là l’écritutre ligne par ligne devient périlleuse.\nLa solution est simple mais demande une petite gymnastique qui va rapidement devenir un réflexe.\n\nOuvrez un script (Fichier &gt; Nouveau fichier &gt; Script R).C’est un simple fichier texte.\nTapez votre code dans le script. Une ligne, cents lignes, peu importe.\nSélectionnez la ligne ou les lignes que vous voulez exécuter.\nAppuyez sur Ctrl + Entrée (ou Cmd + Entrée sur Mac). Vous verrez le résultat dans la console. (il y a un bouton Exécuter en haut à droite du script qui fait la même chose mais ce raccourci clavier est impérativement à connaitre par cœur)\nVous pouvez aussi exécuter le script entier en appuyant sur Ctrl + Alt + Entrée (ou Cmd + Option + Entrée sur Mac).\nDans la console va s’afficher les lignes sélectionnées & le résultat.\nUne erreur, une faute de frappe ? Corriger le script & retour au point 3. Et ainsi de suite.\nSauvegarder votre fichier script. Le lendemain vous aurez juste à l’ouvrir pour retrouver votre code. Vous pouvez aussi le partager avec vos collègues, le mettre dans un dépôt GitHub, etc.\n\n\n\n\n\n\n\nNote\n\n\n\nDans quelques cours je vous expliquerais une méthode encore meilleure : Quarto. Mais pour l’instant, restons simple.\nEt quand on y réfléchit bien une page Quarto n’est qu’un script amélioré."
+  },
+  {
+    "objectID": "objets.html",
+    "href": "objets.html",
+    "title": "Objets",
+    "section": "",
+    "text": "Toutes les donénes que nous allons utilisées doivent être stockées quelque part. Par exemple le résultat d’une opération: un simple chiffre, c’est à dire une donnée simple appelée variable. Mais aussi les données d’une étudesur 400 cas & 50 items On entre là dans des objets complexes qui contiennent de nombreuses variables.",
+    "crumbs": [
+      "Les objets"
+    ]
+  },
+  {
+    "objectID": "objets.html#variables-simples",
+    "href": "objets.html#variables-simples",
+    "title": "Objets",
+    "section": "Variables simples",
+    "text": "Variables simples\nUne variable simple est un objet qui contient une seule valeur. Par exemple, un nombre entier, un nombre décimal ou une chaîne de caractères. En R, on crée une variable simple en utilisant l’opérateur d’assignation &lt;-.\n\n# Création d'une variable simple\nx &lt;- 42\nx\n\n[1] 42\n\n\nOn peut faire toutes les opérations possibles sur une variable :\n\n# Opérations sur une variable\nx + 10\n\n[1] 52\n\nsqrt(x)\n\n[1] 6.480741",
+    "crumbs": [
+      "Les objets"
+    ]
+  },
+  {
+    "objectID": "objets.html#types-de-variables",
+    "href": "objets.html#types-de-variables",
+    "title": "Objets",
+    "section": "Types de variables",
+    "text": "Types de variables\nR est un langage non typé, cad qu’il n’est pas nécessaire de spécifier le type d’une variable pour la créer. Néanmoins il faut connaitre les principaux types existants.\nCertains types n’ont de sens que lorsqu’on a plusieurs réponses. Par exemple la réponse à une question dans un questionnaire adressé à 20 personnes. On aura une variable contenant 20 réponses (on verra cela dan sle prochain cours).\nOn peut connaitre le type d’une variable avec la fonction class.\n\nx &lt;- 42\nclass(x)\n\n[1] \"numeric\"\n\n\n\nVariables numériques\nComme leur nom l’indique elles contiennent des nombres. Il en existe deux types mais on ne les distingue pas toujours dans la pratique & même R les classe souvent en numeric :\n\ninteger : Nombres entiers, sans décimales.\ndouble : Nombres à virgule flottante, c’est-à-dire avec des décimales. Attention, la représentation des nombres à virgule flottante peut parfois entraîner des erreurs d’arrondi :\n\n\n# Erreurs d'arrondi\n\nsqrt(2)^2 == 2 \n\n[1] FALSE\n\n# On compare la racine carrée de 2 au nombre 2. \n# Réponse TRUE si l'égalité est exacte, FALSE sinon.\n\n\n\nVariables booléennes\nLes variables booléennes (type logical) ne peuvent prendre que deux valeurs : TRUE ou FALSE. Elles sont souvent utilisées pour les conditions et les boucles comme dans l’exemple si dessus. En réalité il s’agit d’un type numérique où TRUE est représenté par 1 et FALSE par 0.\n\n\nVariables textuelles\nLes variables textuelles, ou chaînes de caractères, sont utilisées pour stocker du texte. Elles sont créées en entourant le texte de guillemets simples ou doubles (type character). ON peut faire des opérations sur les chaînes de caractères la recherche de sous-chaînes ou caractère, évaluer leur longueur, passer de majuscules en minuscules, etc.\n\n\nVariables factorielles\nLes variables factorielles (type factor) sont utilisées pour représenter des catégories ou des groupes. Elles sont particulièrement utiles pour les analyses statistiques et la visualisation de données. Les facteurs peuvent être ordonnés ou non ordonnés, et ils sont souvent utilisés pour représenter des variables qualitatives. Le nombre de réponses possibles (ou levels) est souvent limité et prédéfini. Par exemple, si on pose la question “Quel est votre niveau d’éducation ?” avec les réponses possibles “Primaire”, “Secondaire”, “Supérieur”, on a une variable factorielle à trois niveaux.\nNe pas les confondre avec des variables textuelles : si on pose la question “Aimez-vous les chats Oui/Non ?” et que vous répondez “Oui” ou “Non”, vous avez une variable factorielle. Il serait stupide de calculer la longueur de la réponse. Et si on complète par “Expliquer votre choix en quelques mots”, on a une variable textuelle, calculer la longueur de la réponse ou le nombre de mots aurait un sens.\n\n\nVariables autres\nCertains packages introduisent de nouveaux types de variables. Par exemple, le package lubridate introduit des variables de type date et datetime pour manipuler les dates et heures ou le package sf qui introduit des variables géographiques pour manipuler des données spatiales.\n\n# Exemple de variable date\nlibrary(lubridate)\nnn &lt;- \"25/12/2025\"\nclass(nn)\n\n[1] \"character\"\n\ndd &lt;- dmy(nn) # Convertit la chaîne de caractères en date\nclass(dd)\n\n[1] \"Date\"",
+    "crumbs": [
+      "Les objets"
     ]
   }
 ]

@@ -1,0 +1,81 @@
+---
+title: "Objets"
+---
+
+Toutes les donénes que nous allons utilisées doivent être stockées quelque part. Par exemple le résultat d'une opération: un simple chiffre, c'est à dire une donnée simple appelée `variable`. Mais aussi les données d'une étudesur 400 cas & 50 items On entre là dans des objets complexes qui contiennent de nombreuses variables.
+
+# Variables simples
+
+Une variable simple est un objet qui contient une seule valeur. Par exemple, un nombre entier, un nombre décimal ou une chaîne de caractères. En R, on crée une variable simple en utilisant l'opérateur d'assignation `<-`.
+
+```{r}
+# Création d'une variable simple
+x <- 42
+x
+```
+
+On peut faire toutes les opérations possibles sur une variable :
+
+```{r}
+# Opérations sur une variable
+x + 10
+sqrt(x) # Racine carrée
+```
+
+## Types de variables
+
+R est un langage non typé, cad qu'il n'est pas nécessaire de spécifier le type d'une variable pour la créer. Néanmoins il faut connaitre les principaux types existants.
+
+Certains types n'ont de sens que lorsqu'on a plusieurs réponses. Par exemple la réponse à une question dans un questionnaire adressé à 20 personnes. On aura une variable contenant 20 réponses (on verra cela dan sle prochain cours).
+
+On peut connaitre le type d’une variable avec la fonction `class`. 
+
+
+```{r}
+#| label: "Type d'une variable"
+x <- 42
+class(x)
+```
+
+
+### Variables numériques
+Comme leur nom l’indique elles contiennent des nombres. Il en existe deux types mais on ne les distingue pas toujours dans la pratique & même R les classe souvent en `numeric` :
+
+- **integer** : Nombres entiers, sans décimales.
+- **double** : Nombres à virgule flottante, c'est-à-dire avec des décimales. Attention, la représentation des nombres à virgule flottante peut parfois entraîner des erreurs d'arrondi :
+
+```{r}
+# Erreurs d'arrondi
+
+sqrt(2)^2 == 2 
+# On compare la racine carrée de 2 au nombre 2. 
+# Réponse TRUE si l'égalité est exacte, FALSE sinon.
+```
+
+### Variables booléennes
+
+Les variables booléennes (type `logical`) ne peuvent prendre que deux valeurs : `TRUE` ou `FALSE`. Elles sont souvent utilisées pour les conditions et les boucles comme dans l'exemple si dessus. En réalité il s'agit d'un type numérique où `TRUE` est représenté par 1 et `FALSE` par 0.
+
+### Variables textuelles
+
+Les variables textuelles, ou chaînes de caractères, sont utilisées pour stocker du texte. Elles sont créées en entourant le texte de guillemets simples ou doubles (type `character`). ON peut faire des opérations sur les chaînes de caractères la recherche de sous-chaînes ou caractère, évaluer leur longueur, passer de majuscules en minuscules, etc.
+
+### Variables factorielles
+
+Les variables factorielles (type `factor`) sont utilisées pour représenter des catégories ou des groupes. Elles sont particulièrement utiles pour les analyses statistiques et la visualisation de données. Les facteurs peuvent être ordonnés ou non ordonnés, et ils sont souvent utilisés pour représenter des variables qualitatives. Le nombre de réponses possibles (ou `levels`) est souvent limité et prédéfini. Par exemple, si on pose la question "*Quel est votre niveau d'éducation ?*" avec les réponses possibles "Primaire", "Secondaire", "Supérieur", on a une variable factorielle à trois niveaux.
+
+Ne pas les confondre avec des variables textuelles : si on pose la question "*Aimez-vous les chats Oui/Non ?*" et que vous répondez "Oui" ou "Non", vous avez une variable factorielle. Il serait stupide de calculer la longueur de la réponse. Et si on complète par "*Expliquer votre choix en quelques mots*", on a une variable textuelle, calculer la longueur de la réponse ou le nombre de mots aurait un sens.
+
+### Variables autres
+
+Certains packages introduisent de nouveaux types de variables. Par exemple, le package `lubridate` introduit des variables de type `date` et `datetime` pour manipuler les dates et heures ou le package `sf` qui introduit des variables géographiques pour manipuler des données spatiales.
+
+```{r}
+# Exemple de variable date
+library(lubridate)
+nn <- "25/12/2025"
+class(nn)
+dd <- dmy(nn) # Convertit la chaîne de caractères en date
+class(dd)
+```
+
