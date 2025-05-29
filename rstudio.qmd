@@ -1,6 +1,5 @@
 ---
 title: "Rstudio"
-format: html
 ---
 
 # Les panneaux & onglets

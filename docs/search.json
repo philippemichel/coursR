@@ -1,0 +1,166 @@
+[
+  {
+    "objectID": "index.html#plan-global",
+    "href": "index.html#plan-global",
+    "title": "Présentation",
+    "section": "",
+    "text": "Présentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nLes objets : variables simples & complexes (dataframes…)\nRStudio : métode de travail.\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
+    "crumbs": [
+      "Accueil"
+    ]
+  },
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Installation",
+    "section": "",
+    "text": "Vous pouvez télécharger R sur le site officiel : CRAN. Il est disponible pour Windows, Mac et Linux.\nSous Linux je vous conseille d’installer R depuis les dépôts de votre distribution. Par exemple, sous Ubuntu vous pouvez utiliser la commande suivante :\nsudo apt install r-base\nAprès l’installation, vous pouvez vérifier que R est bien installé en ouvrant un terminal et en tapant la commande suivante :\nR --version\n\n\n\nPour écrire du code R vous pouvez passer par un terminal mais il existe des interface dédiées à la programmation appelés IDE (Integrated Development Environment). L’IDE le plus utilisé pour R est RStudio. Il est disponible pour Windows, Mac et Linux. Vous pouvez le télécharger à l’adresse suivante : https://posit.co/download/rstudio-desktop/.\nLa version de base est gratuite et suffisante pour la plupart des utilisateurs. Il existe une version payante avec des fonctionnalités uniquement utiles en entreprise.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#quarto",
+    "href": "installation.html#quarto",
+    "title": "installation",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "installation.html#running-code",
+    "href": "installation.html#running-code",
+    "title": "installation",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\nCode\n1 + 1\n\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Présentation",
+    "section": "",
+    "text": "Mes cours s’adressent à des débutants sans expérience mais motivés.\nContrairement à ce qu’on essaye de vous faire croire utiliser R au delà de quelques fonctions de base demande du travail surtout dans les débuts. Il faut impérativement apprendre des notions ingrates & sans intérêt immédiatement visible. Vous voilà prévenus.\nCe site a plus pour but d’être mon aide mémoire que de vous apprendre à utiliser R. Il est par définition incomplet & en chantier. Je vous conseille plutôt mes vidéos : ici et là. Je peut aussi assurer des cours en présentiel ou à distance. N’hésitez pas à me contacter.\nj’utilise au quotidien R saveur Tidyverse, c’est donc ce que j’enseigne.\n\n\n\nPrésentation de R : historique, généralités…\nR et RStudio : installation, Présentation de RStudio.\nLes objets : variables simples & complexes (dataframes…)\nRStudio : métode de travail.\nLes fonctions : comment les utiliser, comment en créer\nBases de la programmation: les boucles, les conditions, le pipe\nLes données : comment les importer, les exporter, les manipuler\nLes graphiques : comment les créer, les personnaliser",
+    "crumbs": [
+      "Accueil"
+    ]
+  },
+  {
+    "objectID": "installation.html#installation-de-r",
+    "href": "installation.html#installation-de-r",
+    "title": "Installation",
+    "section": "",
+    "text": "Vous pouvez télécharger R sur le site officiel : CRAN. Il est disponible pour Windows, Mac et Linux.\nSous Linux je vous conseille d’installer R depuis les dépôts de votre distribution. Par exemple, sous Ubuntu vous pouvez utiliser la commande suivante :\nsudo apt install r-base\nAprès l’installation, vous pouvez vérifier que R est bien installé en ouvrant un terminal et en tapant la commande suivante :\nR --version",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#rstudio",
+    "href": "installation.html#rstudio",
+    "title": "Installation",
+    "section": "",
+    "text": "Pour écrire du code R vous pouvez passer par un terminal mais il existe des interface dédiées à la programmation appelés IDE (Integrated Development Environment). L’IDE le plus utilisé pour R est RStudio. Il est disponible pour Windows, Mac et Linux. Vous pouvez le télécharger à l’adresse suivante : https://posit.co/download/rstudio-desktop/.\nLa version de base est gratuite et suffisante pour la plupart des utilisateurs. Il existe une version payante avec des fonctionnalités uniquement utiles en entreprise.",
+    "crumbs": [
+      "Installation"
+    ]
+  },
+  {
+    "objectID": "installation.html#haut-gauche",
+    "href": "installation.html#haut-gauche",
+    "title": "Installation",
+    "section": "Haut gauche",
+    "text": "Haut gauche\n\nScript : c’est ici que vous écrivez votre code R. Vous pouvez créer plusieurs scripts ou pages…",
+    "crumbs": [
+      "Installation, organisation du travail"
+    ]
+  },
+  {
+    "objectID": "installation.html#haut-droit",
+    "href": "installation.html#haut-droit",
+    "title": "Installation",
+    "section": "Haut droit",
+    "text": "Haut droit\n\nFichiers : c’est ici que vous pouvez naviguer dans vos fichiers et dossiers.\nGraphiques : c’est ici que vous pouvez voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : c’est ici que vous pouvez installer et charger des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : c’est ici que vous pouvez trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : si vous utilisez Git pour le contrôle de version, c’est ici que vous pouvez gérer vos dépôts Git. Vous pouvez également voir les modifications apportées à votre code.\nVisualiseur : Pour voir vos productions complexes (hors graphiques ) en particulier les tableaux. -Présentation",
+    "crumbs": [
+      "Installation, organisation du travail"
+    ]
+  },
+  {
+    "objectID": "installation.html#bas-gauche",
+    "href": "installation.html#bas-gauche",
+    "title": "Installation",
+    "section": "Bas gauche",
+    "text": "Bas gauche\n\nEnvironnement : c’est ici que vous pouvez voir les objets présents dans votre projets : variables, data-frames… mais pas les modifier.\nTerminal : c’est ici que vous pouvez exécuter des commandes shell. Vous pouvez également utiliser le terminal pour installer des packages R ou pour exécuter des scripts R.\nHistorique : c’est ici que vous pouvez voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes précédentes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : c’est ici que vous pouvez gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (peu utile pour un débutant).\nTutoriel : c’est ici que vous pouvez accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourez également créer vos propres tutoriels.",
+    "crumbs": [
+      "Installation, organisation du travail"
+    ]
+  },
+  {
+    "objectID": "installation.html#bas-droit",
+    "href": "installation.html#bas-droit",
+    "title": "Installation",
+    "section": "Bas droit",
+    "text": "Bas droit\n\nConsole : c’est ici que vous pouvez exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.\nTerminal : Pour exécuter des commandes shell.\nTraveaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
+    "crumbs": [
+      "Installation, organisation du travail"
+    ]
+  },
+  {
+    "objectID": "rstudio.html",
+    "href": "rstudio.html",
+    "title": "Rstudio",
+    "section": "",
+    "text": "RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable) :\n\n\n\nScript : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est l’onglet où vous passerez le plus de temps. ## Haut droit\nFichiers : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer…).\nGraphiques : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : Le sfonctions de base de Git (commit, push, pull…).\nVisualiseur : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.\nPrésentation\n\n\n\n\n\nEnvironnement : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.\nTerminal : Un terminla standard pour exécuter des commandes shell. Toujours utile.\nHistorique : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).\nTutoriel : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.\n\n\n\n\n\nConsole : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.\nTerminal : Pour exécuter des commandes shell.\nTravaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
+    "crumbs": [
+      "RStudio"
+    ]
+  },
+  {
+    "objectID": "rstudio.html#haut-gauche",
+    "href": "rstudio.html#haut-gauche",
+    "title": "Rstudio",
+    "section": "",
+    "text": "Script : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est l’onglet où vous passerez le plus de temps. ## Haut droit\nFichiers : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer…).\nGraphiques : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : Le sfonctions de base de Git (commit, push, pull…).\nVisualiseur : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.\nPrésentation",
+    "crumbs": [
+      "RStudio"
+    ]
+  },
+  {
+    "objectID": "rstudio.html#haut-droit",
+    "href": "rstudio.html#haut-droit",
+    "title": "Rstudio",
+    "section": "",
+    "text": "Fichiers : c’est ici que vous pouvez naviguer dans vos fichiers et dossiers.\nGraphiques : c’est ici que vous pouvez voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : c’est ici que vous pouvez installer et charger des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : c’est ici que vous pouvez trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : si vous utilisez Git pour le contrôle de version, c’est ici que vous pouvez gérer vos dépôts Git. Vous pouvez également voir les modifications apportées à votre code.\nVisualiseur : Pour voir vos productions complexes (hors graphiques ) en particulier les tableaux. -Présentation",
+    "crumbs": [
+      "RSTudio"
+    ]
+  },
+  {
+    "objectID": "rstudio.html#bas-gauche",
+    "href": "rstudio.html#bas-gauche",
+    "title": "Rstudio",
+    "section": "",
+    "text": "Environnement : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.\nTerminal : Un terminla standard pour exécuter des commandes shell. Toujours utile.\nHistorique : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).\nTutoriel : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.",
+    "crumbs": [
+      "RStudio"
+    ]
+  },
+  {
+    "objectID": "rstudio.html#bas-droit",
+    "href": "rstudio.html#bas-droit",
+    "title": "Rstudio",
+    "section": "",
+    "text": "Console : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.\nTerminal : Pour exécuter des commandes shell.\nTravaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
+    "crumbs": [
+      "RStudio"
+    ]
+  },
+  {
+    "objectID": "installation.html#r",
+    "href": "installation.html#r",
+    "title": "Installation",
+    "section": "",
+    "text": "Vous pouvez télécharger R sur le site officiel : CRAN. Il est disponible pour Windows, Mac et Linux.\nSous Linux je vous conseille d’installer R depuis les dépôts de votre distribution. Par exemple, sous Ubuntu vous pouvez utiliser la commande suivante :\nsudo apt install r-base\nAprès l’installation, vous pouvez vérifier que R est bien installé en ouvrant un terminal et en tapant la commande suivante :\nR --version",
+    "crumbs": [
+      "Installation"
+    ]
+  }
+]
