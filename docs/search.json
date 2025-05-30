@@ -108,7 +108,7 @@
     "href": "rstudio.html",
     "title": "Rstudio",
     "section": "",
-    "text": "RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable) :\n\n\n\nScript : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est l’onglet où vous passerez le plus de temps. ## Haut droit\nFichiers : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer…).\nGraphiques : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : Le sfonctions de base de Git (commit, push, pull…).\nVisualiseur : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.\nPrésentation\n\n\n\n\n\nEnvironnement : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.\nTerminal : Un terminla standard pour exécuter des commandes shell. Toujours utile.\nHistorique : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).\nTutoriel : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.\n\n\n\n\n\nConsole : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.\nTerminal : Pour exécuter des commandes shell.\nTravaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
+    "text": "Note\n\n\n\nToutes les fonctions disponibles d’un clic sur une icone dans RStudio ne sont que des commande R que vous pouvez appeler dans la console ou souvent par un raccourci clavier.\nÀ vous de voir comment vous voulez travailler.",
     "crumbs": [
       "RStudio"
     ]
@@ -117,8 +117,8 @@
     "objectID": "rstudio.html#haut-gauche",
     "href": "rstudio.html#haut-gauche",
     "title": "Rstudio",
-    "section": "",
-    "text": "Script : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est l’onglet où vous passerez le plus de temps. ## Haut droit\nFichiers : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer…).\nGraphiques : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : Le sfonctions de base de Git (commit, push, pull…).\nVisualiseur : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.\nPrésentation",
+    "section": "Haut gauche",
+    "text": "Haut gauche\n\nScript : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est certainement l’onglet où vous passerez le plus de temps. Vous pouvez avoir plusieurs scripts ouverts en même temps.",
     "crumbs": [
       "RStudio"
     ]
@@ -127,18 +127,18 @@
     "objectID": "rstudio.html#haut-droit",
     "href": "rstudio.html#haut-droit",
     "title": "Rstudio",
-    "section": "",
-    "text": "Fichiers : c’est ici que vous pouvez naviguer dans vos fichiers et dossiers.\nGraphiques : c’est ici que vous pouvez voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : c’est ici que vous pouvez installer et charger des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.\nAide : c’est ici que vous pouvez trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.\nGit : si vous utilisez Git pour le contrôle de version, c’est ici que vous pouvez gérer vos dépôts Git. Vous pouvez également voir les modifications apportées à votre code.\nVisualiseur : Pour voir vos productions complexes (hors graphiques ) en particulier les tableaux. -Présentation",
+    "section": "Haut droit",
+    "text": "Haut droit\n\nFichiers : Pour naviguer dans vos fichiers et dossiers ainsi que faire des opérations de base (copier, coller, supprimer, renommer…).\nGraphiques : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…\nPaquets : Pour activer, installer ou mettre à jour des packages R.\nAide : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages.\nGit : Les fonctions de base de Git (commit, push, pull…).\nVisualiseur : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.\nPrésentation :",
     "crumbs": [
-      "RSTudio"
+      "RStudio"
     ]
   },
   {
     "objectID": "rstudio.html#bas-gauche",
     "href": "rstudio.html#bas-gauche",
     "title": "Rstudio",
-    "section": "",
-    "text": "Environnement : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.\nTerminal : Un terminla standard pour exécuter des commandes shell. Toujours utile.\nHistorique : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).\nTutoriel : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.",
+    "section": "Bas gauche",
+    "text": "Bas gauche\n\nEnvironnement : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.\nHistorique : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.\nConnexions : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).\nTutoriel : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.",
     "crumbs": [
       "RStudio"
     ]
@@ -147,8 +147,8 @@
     "objectID": "rstudio.html#bas-droit",
     "href": "rstudio.html#bas-droit",
     "title": "Rstudio",
-    "section": "",
-    "text": "Console : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.\nTerminal : Pour exécuter des commandes shell.\nTravaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
+    "section": "Bas droit",
+    "text": "Bas droit\n\nConsole : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R, entrer des commandes etc. À utiliser au minimum (voir Méthodes de travail.\nTerminal : Un terminal standard pour exécuter des commandes shell. Toujours utile.\nTravaux : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).",
     "crumbs": [
       "RStudio"
     ]

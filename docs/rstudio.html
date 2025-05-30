@@ -337,7 +337,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./objets.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./objets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Les objets</span></a>
   </div>
 </li>
@@ -360,9 +360,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#les-panneaux-onglets" id="toc-les-panneaux-onglets" class="nav-link active" data-scroll-target="#les-panneaux-onglets">Les panneaux &amp; onglets</a>
   <ul class="collapse">
   <li><a href="#haut-gauche" id="toc-haut-gauche" class="nav-link" data-scroll-target="#haut-gauche">Haut gauche</a></li>
+  <li><a href="#haut-droit" id="toc-haut-droit" class="nav-link" data-scroll-target="#haut-droit">Haut droit</a></li>
   <li><a href="#bas-gauche" id="toc-bas-gauche" class="nav-link" data-scroll-target="#bas-gauche">Bas gauche</a></li>
   <li><a href="#bas-droit" id="toc-bas-droit" class="nav-link" data-scroll-target="#bas-droit">Bas droit</a></li>
   </ul></li>
+  <li><a href="#autres-fonctions" id="toc-autres-fonctions" class="nav-link" data-scroll-target="#autres-fonctions">Autres fonctions</a></li>
   </ul>
 </nav>
     </div>
@@ -389,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 mai 2025</p>
+      <p class="date">31 mai 2025</p>
     </div>
   </div>
   
@@ -401,27 +403,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Toutes les fonctions disponibles d’un clic sur une icone dans RStudio ne sont que des commande R que vous pouvez appeler dans la console ou souvent par un raccourci clavier.</p>
+<p>À vous de voir comment vous voulez travailler.</p>
+</div>
+</div>
 <section id="les-panneaux-onglets" class="level1">
 <h1>Les panneaux &amp; onglets</h1>
-<p>RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable) :</p>
+<p>RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable). je vous présente ici les onglets par défaut, certains environnement peuvent les modifier (par exemple si vous travaillez sur un package) :</p>
 <section id="haut-gauche" class="level2">
 <h2 class="anchored" data-anchor-id="haut-gauche">Haut gauche</h2>
 <ul>
-<li><strong>Script</strong> : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est l’onglet où vous passerez le plus de temps. ## Haut droit</li>
-<li><strong>Fichiers</strong> : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer…).</li>
+<li><strong>Script</strong> : c’est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C’est certainement l’onglet où vous passerez le plus de temps. Vous pouvez avoir plusieurs scripts ouverts en même temps.</li>
+</ul>
+</section>
+<section id="haut-droit" class="level2">
+<h2 class="anchored" data-anchor-id="haut-droit">Haut droit</h2>
+<ul>
+<li><strong>Fichiers</strong> : Pour naviguer dans vos fichiers et dossiers ainsi que faire des opérations de base (copier, coller, supprimer, renommer…).</li>
 <li><strong>Graphiques</strong> : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer…</li>
-<li><strong>Paquets</strong> : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d’étendre les fonctionnalités de R.</li>
-<li><strong>Aide</strong> : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.</li>
-<li><strong>Git</strong> : Le sfonctions de base de Git (commit, push, pull…).</li>
+<li><strong>Paquets</strong> : Pour activer, installer ou mettre à jour des packages R.</li>
+<li><strong>Aide</strong> : Pour trouver de l’aide sur les fonctions R. Vous pouvez également voir la documentation des packages.</li>
+<li><strong>Git</strong> : Les fonctions de base de Git (commit, push, pull…).</li>
 <li><strong>Visualiseur</strong> : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.</li>
-<li><strong>Présentation</strong></li>
+<li><strong>Présentation</strong> :</li>
 </ul>
 </section>
 <section id="bas-gauche" class="level2">
 <h2 class="anchored" data-anchor-id="bas-gauche">Bas gauche</h2>
 <ul>
 <li><strong>Environnement</strong> : Pour voir les objets présents dans votre projets : variables, data-frames… Mais pas les modifier.</li>
-<li><strong>Terminal</strong> : Un terminla standard pour exécuter des commandes shell. Toujours utile.</li>
 <li><strong>Historique</strong> : Pour voir l’historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l’utiliserez.</li>
 <li><strong>Connexions</strong> : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).</li>
 <li><strong>Tutoriel</strong> : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.</li>
@@ -430,13 +450,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="bas-droit" class="level2">
 <h2 class="anchored" data-anchor-id="bas-droit">Bas droit</h2>
 <ul>
-<li><strong>Console</strong> : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R. À utiliser au minimum.</li>
-<li><strong>Terminal</strong> : Pour exécuter des commandes shell.</li>
+<li><strong>Console</strong> : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C’est l’endroit où vous pouvez interagir directement avec R, entrer des commandes etc. À utiliser au minimum (voir <a href="./methode.html">Méthodes de travail</a>.</li>
+<li><strong>Terminal</strong> : Un terminal standard pour exécuter des commandes shell. Toujours utile.</li>
 <li><strong>Travaux</strong> : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).</li>
+</ul>
+</section>
+</section>
+<section id="autres-fonctions" class="level1">
+<h1>Autres fonctions</h1>
+<ul>
+<li>Il existe de nombreux raccourcis claviers dans RStudio (modifiables), vous pouvez les trouver dans le menu <code>Aide &gt; Raccourcis clavier</code>.</li>
+<li>Vous pouvez également personnaliser l’interface de RStudio en allant dans <code>Outils &gt; Global Options</code>. Vous pouvez changer le thème, la police, les couleurs, les emplacments des onglets etc.</li>
+<li><strong>Addins</strong>: ce sont des extensions pour RStudio qui vous permettent d’ajouter des fonctionnalités supplémentaires Vous pouvez les trouver dans le menu <code>Outils &gt; Compléments</code>.</li>
 </ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -2,25 +2,31 @@
 title: "Rstudio"
 ---
 
+::: callout-note
+Toutes les fonctions disponibles d'un clic sur une icone dans RStudio ne sont que des commande R que vous pouvez appeler dans la console ou souvent par un raccourci clavier.
+
+À vous de voir comment vous voulez travailler. 
+:::
+
 # Les panneaux & onglets
 
-RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable) :
+RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organisés de la manière suivante (par défaut, entièrement configurable). je vous présente ici les onglets par défaut, certains environnement peuvent les modifier (par exemple si vous travaillez sur un package) :
 
 ## Haut gauche
-- **Script** : c'est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C'est l'onglet où vous passerez le plus de temps.
+- **Script** : c'est ici que vous écrivez votre code R (scripts, pages Quarto etc.). C'est certainement l'onglet où vous passerez le plus de temps. Vous pouvez avoir plusieurs scripts ouverts en même temps.
+
 ## Haut droit
-- **Fichiers** : Pour naviguer dans vos fichiers et dossiers aisni que faire des opérations de base (copier, coller, supprimer, renommer...).
+- **Fichiers** : Pour naviguer dans vos fichiers et dossiers ainsi que faire des opérations de base (copier, coller, supprimer, renommer...).
 - **Graphiques** : Pour voir les graphiques que vous avez créés. Vous pouvez également zoomer, les enregistrer...
-- **Paquets** : Pour installer ou mettre à jour des packages R. Les packages sont des bibliothèques de fonctions qui vous permettent d'étendre les fonctionnalités de R.
-- **Aide** : Pour trouver de l'aide sur les fonctions R. Vous pouvez également voir la documentation des packages que vous avez installés.
-- **Git** : Le sfonctions de base de Git (commit, push, pull...).
+- **Paquets** : Pour activer, installer ou mettre à jour des packages R.
+- **Aide** : Pour trouver de l'aide sur les fonctions R. Vous pouvez également voir la documentation des packages.
+- **Git** : Les fonctions de base de Git (commit, push, pull...).
 - **Visualiseur** : Pour voir vos productions complexes (hors graphiques) en particulier les tableaux.
-- **Présentation** 
+- **Présentation** :
 
 ## Bas gauche
 
-- **Environnement** : Pour voir les objets présents dans votre projets : variables, data-frames... Mais pas les modifier.
-- **Terminal** : Un terminla standard pour exécuter des commandes shell. Toujours utile.
+- **Environnement** : Pour voir les objets présents dans votre projets : variables, data-frames... Mais pas les modifier. 
 - **Historique** : Pour voir l'historique des commandes que vous avez exécutées dans la console R. Vous pouvez également réexécuter des commandes. Plus vous progresserez moins vous l'utiliserez.
 - **Connexions** : Pour gérer les connexions à des bases de données ou à des services web. Vous pouvez également voir les connexions actives et les déconnecter si nécessaire (inutile pour un débutant).
 - **Tutoriel** : Pour accéder à des tutoriels pour apprendre à utiliser RStudio. Vous pourrez également créer vos propres tutoriels.
@@ -28,8 +34,12 @@ RStudio est divisé en quatre panneaux qui comportent plusieurs onglets organis�
 
 ## Bas droit
 
-- **Console** : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C'est l'endroit où vous pouvez interagir directement avec R. À utiliser au minimum.
-- **Terminal** : Pour exécuter des commandes shell.
+- **Console** : Pour exécuter des commandes R. Vous pouvez également voir les résultats du code écrit dans scritp. C'est l'endroit où vous pouvez interagir directement avec R, entrer des commandes etc. À utiliser au minimum (voir [Méthodes de travail](methode.qmd).
+- **Terminal** : Un terminal standard pour exécuter des commandes shell. Toujours utile.
 - **Travaux** : Pour suivre les compilations de fonctions ou de pages Quarto (et vos erreurs).
 
+# Autres fonctions
 
+- Il existe de nombreux raccourcis claviers dans RStudio (modifiables), vous pouvez les trouver dans le menu `Aide > Raccourcis clavier`.
+- Vous pouvez également personnaliser l'interface de RStudio en allant dans `Outils > Global Options`. Vous pouvez changer le thème, la police, les couleurs, les emplacments des onglets etc.
+- **Addins**: ce sont des extensions pour RStudio qui vous permettent d'ajouter des fonctionnalités supplémentaires Vous pouvez les trouver dans le menu `Outils > Compléments`.
